@@ -4,7 +4,6 @@ import { createUser, getUsers, getUser, deleteUser, updateUser } from "../contro
 
 const router = express.Router();
 
-
 // all routes below start with /users
 router.get('/', getUsers);
 
